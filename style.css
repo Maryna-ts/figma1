@@ -288,6 +288,144 @@ body {
     display: block;
 }
 
+.microsoft {
+    width: 1024px;
+    height: 140px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.microsoft-block2 {
+    padding: 30px auto;
+}
+
+.block2 {
+    float: left;
+    margin: 10px 40px 0 70px;
+    box-sizing: border-box;
+}
+
+.veb-sait {
+    width: 1024px;
+    height: 872px;
+    margin: 0 auto;
+    background: #EEEFF1;
+}
+
+.veb-sait-wrapper {
+    padding-top: 80px;
+}
+
+.sait-wrapper h2 {
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+}
+
+.sait-wrapper p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.FIO {
+    padding: 55px 0 0 0;
+} 
+
+.name {
+    float: left;
+    margin-right: 40px;
+    padding-left: 200px;
+}
+
+.name input {
+    width: 273px;
+    height: 65.86px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    margin-right: 40px;
+    margin-bottom: 35px;
+}
+
+.email input {
+    width: 273px;
+    height: 65.86px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+
+.message input {
+    width: 633px;
+    height: 230px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    margin-left: 200px;
+  
+    
+}
+
+.message-button {
+    width: 190px;
+    height: 72.45px;
+    background: #34547A;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin: 40px 430px 0 403px;
+}
+
+.LOG {
+    width: 1024px;
+    height: 150px;
+    background: #34547A;
+    margin: 0 auto;
+}
+
+.LOG-NAME {
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.LOG-NAME h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.LOG-NAME p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.vk {
+    float: right;
+    padding-right: 50px;
+}
+
+.LOG-VK {
+    float: left;
+    margin-right: 30px;
+    margin-top: 45px;
+}
+
 .clearfix ::after {
     clear: both;
     content: "";
