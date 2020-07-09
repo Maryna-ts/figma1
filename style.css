@@ -1,0 +1,299 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Roboto;
+}
+
+.first {
+    width: 1024px;
+    height: 700px;
+    background: #EEEFF1;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 0px 0 150px 80px;
+    box-sizing: border-box;
+    width: 1024px;
+}
+
+.navigation-logo, .navigation-list {
+    float: left;
+    box-sizing: border-box;
+}
+
+.navigation-logo {
+    padding-top: 57px;
+    
+}
+
+.navigation-list {
+    padding: 59px 0 0 25px;
+}
+.navigation-list ul {
+    list-style-type: none;
+    padding-left: 108px;   
+}
+
+.navigation-list ul li {
+    float: left;
+    margin-right: 43px;
+}
+
+.navigation-item a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: black;
+    text-decoration: none;
+
+}
+
+.navigation-item-bl a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-item-bl a :hover{
+    color: #306cb6;  
+}
+
+.frame-svg, .frame-wrapper {
+    float: left;
+    margin: 15px auto 0 auto;
+    box-sizing: border-box;
+    padding-left: 115px;
+    padding-top: 60px;
+}
+
+.frame-wrapper h1 {
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    
+}
+
+.frame-wrapper p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 400px;
+    padding-bottom: 49px;
+}
+
+.frame-button {
+    width: 237px;
+    height: 65px;
+    left: 470px;
+    top: 514px;
+    background: #34547A;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.second {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 1024px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.second h2 {
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.second p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.third {
+    width: 1024px;
+    height: 250px;
+    background: #34547A;
+    margin: 0 auto;
+}
+
+.rectangle {
+    padding: 92px 40px 0 80px;
+}
+
+.rectangle-vector {
+    float: left;
+    margin: 0 auto;
+}
+
+.rectangle-vector img {
+    margin-right: 20px;
+}
+
+.men {
+    width: 1024px;
+    height: 650px;
+    background-color: #FFFFFF;
+    margin: 0 auto;  
+    padding-top: 119px;
+}
+
+.lines {
+    padding-left: 40px;
+    float: left;
+}
+
+.line h2 {
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.line p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.colorbl {
+    border: 2px solid #C4C4C4;
+    width: 414px;
+    height: 6px;
+    left: 40px;
+    top: 1546px;
+    
+}
+
+.colorbll {
+    width: 265.26px;
+    height: 6.02px;
+    left: 40px;
+    top: 1546.54px;
+    background: #34547A;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.colorbllus {
+    width: 312px;
+    height: 6px;
+    left: 40px;
+    top: 1650px;
+    background: #34547A;
+}
+
+.colorblliss {
+    width: 214px;
+    height: 6px;
+    left: 40px;
+    top: 1754px;
+    background: #34547A;
+}
+
+.man {
+    float: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.video {
+    background: #EEEFF1;
+    width: 1024px;
+    height: 780px;
+    padding: 50px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.video-wrapper {
+    padding: 0 266px 0 266px;
+    box-sizing: border-box;
+}
+
+.video-wrapper h2 {
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.video-wrapper p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.video-wrapper iframe {
+    padding-top: 50px;
+}
+
+.plitka {
+    margin: 0 auto;
+    width: 1024px;
+    height: 512px;
+}
+
+.plate {
+    position: relative;
+}
+
+.plate img {
+    float: left;
+    box-sizing: border-box;
+    width: 256px;
+    height: 256px;
+}
+
+.overlay {
+    background: rgba(52, 84, 122, 0.8);
+    position: absolute;
+    top: 0;
+    left: 256px;
+    width: 256px;
+    height: 256px;
+    display: none;
+}
+
+.overlay i {
+    font-size: 100px;
+    color: #FFFFFF;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plate img:hover +.overlay {
+    display: block;
+}
+
+.clearfix ::after {
+    clear: both;
+    content: "";
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
