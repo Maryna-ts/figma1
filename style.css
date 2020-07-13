@@ -1,6 +1,8 @@
 body {
     background-color: #E5E5E5;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 .first {
@@ -54,13 +56,17 @@ body {
     letter-spacing: 0.1em;
     color: black;
     text-decoration: none;
+}
 
+.navigation-item a:hover{
+    color: #34547A;
+    margin: 0;
 }
 
 .navigation-item-bl a {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
@@ -68,8 +74,9 @@ body {
     text-decoration: none;
 }
 
-.navigation-item-bl a :hover{
-    color: #306cb6;  
+.navigation-item-bl a:hover{
+    color: #34547A;
+    margin: 0;
 }
 
 .frame-svg {
@@ -96,7 +103,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    width: 540px;
+    max-width: 540px;
     padding-bottom: 49px;
 }
 
@@ -150,25 +157,52 @@ main {
     margin: 0 auto;
 }
 
-.rectangle {
+.rectangle-all {
     padding-top: 100px;
     margin: 0 auto;
 }
 
-.rectangle-vector {
-    float: left;  
- }
-
-.rectangle-vector img {
-    width: 150px; 
-    padding-right: 40px;
+.rectangle-title {
+    display: none;
 }
 
+.proekt {
+    padding: 0 15px;
+    float: left; 
+}
+
+.rectangle-vector {
+    float: left;
+    padding: 0 5px;
+    margin: 0 auto; 
+}
+
+
+.rectangle-wrapper {
+    float: left;  
+    padding: 0 10px;
+}
+
+.rectangle-wrapper h3 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.rectangle-wrapper p {
+    font-size: 16px;
+    line-height: 2px;
+    color: #FFFFFF;
+   
+}
 .rectangle-vector1 img {
     padding-right: 0;
     width: 150px;
 }
 
+.rect {
+    display: none;
+}
 .men {
     height: 750px;
     background-color: #FFFFFF;
@@ -263,7 +297,7 @@ main {
 .video-block iframe {
     margin: 0 auto;
     padding-top: 50px;
-    width: 1110px;
+    width: 100%;
     height: 600px;
 }
 
@@ -331,7 +365,6 @@ main {
 }
 
 .veb-sait {
-    
     margin: 0 auto;
     background: #EEEFF1;
     padding-bottom: 80px;
@@ -365,12 +398,23 @@ main {
     padding-top: 50px;
     padding-bottom: 100px;
     margin: 0 auto;
-} 
+}
 
+form {
+    max-width: 540px;
+    margin: 0 auto;
+}
 
+.name-input {
+    float: left;
+}
+
+.email-input {
+    float: right;
+}
 
 .name {
-  
+   margin-bottom: 20px;
 }
 
 .name input {
@@ -379,10 +423,8 @@ main {
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;  
-    margin: 0 auto;
     display: block;
 }
- 
 
 .message input {
     width: 540px;
@@ -390,9 +432,10 @@ main {
     font-size: 14px;
     line-height: 23px;
     color: #5F5D5D;
-    margin: 0 auto;
+    margin: 0 0 20px 0;
     display: block;
     padding-bottom: 50px;
+    box-sizing: border-box;
     
 }
 
@@ -408,12 +451,14 @@ main {
     cursor: pointer;
     border: none;
     margin: 0 auto;
-    display: block;
-        
+    display: block;    
+}
+
+footer {
+    max-width: 1920px;
 }
 
 .LOG {
-    width: 1920px;
     height: 150px;
     background: #34547A;
     margin: 0 auto;
@@ -460,3 +505,125 @@ main {
     max-width: 1100px;
     margin: 0 auto;
 }
+
+
+@media screen and (max-width: 1100px) {
+  .first {
+   padding-top: 18px;
+  }
+  
+  .frame {
+    padding-top: 15px;
+  }
+  
+  .frame-svg, .frame-wrapper h1 {
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+ 
+  .frame-wrapper {
+      text-align: center;
+  }
+  
+  .frame-wrapper p {
+     padding-bottom: 25px;
+  }
+
+   .frame-svg img {
+    height: 200px; 
+   }
+
+   .navigation-logo img {
+       padding: 0 50px;      
+   }
+
+   .navigation-list {
+       float: none;
+   }
+   
+   .navigation-list ul li {
+       margin-right: 15px;
+   }
+
+   .navigation {
+       padding-bottom: 0;
+   }
+
+   .rectangle-all {
+       display: none;
+   }
+    .rectangle-title {
+        display: block;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-left: 180px;
+        padding-right: 25px;
+    }
+
+    .rectangle-vector {
+        padding-right: 70px;
+
+    }
+
+    .proekt {
+        padding: 0 55px;
+        margin: 0 auto;
+    }
+
+    .men {
+        padding: 0 15px;
+    }
+
+    .lines {
+        width: 50%;
+        padding-left: 25px;
+    }
+
+    .line {
+        margin-bottom: 25px;
+    }
+
+    .man img {
+        width: 290px;
+    }
+
+    .video-block iframe {
+        margin: 0 auto;
+        padding: 50px 180px;
+        width: 50%;
+        height: 250px;
+    }
+    
+    .video-block {
+        margin: 10px 100px;
+    }
+
+  
+  
+
+
+  
+
+ 
+}
+
+@media screen and (max-width: 768px) {
+
+        
+    .rectangle-vector {
+        padding-right: 10px;
+    }
+    .rectangle-all {
+        display: none;
+    }
+
+    .proekt {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+}
+
