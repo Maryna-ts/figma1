@@ -203,6 +203,7 @@ main {
 .rect {
     display: none;
 }
+
 .men {
     height: 750px;
     background-color: #FFFFFF;
@@ -660,6 +661,14 @@ footer {
         margin: 0 auto;
     }
 
+    .microsoft-block2 {
+        display: inline-block;
+      }
+  
+      .microsoft .container {
+        text-align: center;
+      }
+
   
 
  
@@ -667,7 +676,20 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-        
+    nav {
+        padding-left: 0;
+    }
+    
+    .navigation-logo, .navigation-list {
+        float: none;
+    }
+
+    .navigation-logo {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 5px;
+   }
+
     .rectangle-vector {
         padding-right: 10px;
     }
@@ -685,15 +707,74 @@ footer {
         text-transform: uppercase;
         font-size: 20px;
         text-align: center;
+        text-decoration: none;
       }
     
+      .nav-title a {
+        text-decoration: none;
+
+      }
       .navigation-list ul li  {
         float: none;
+        text-align: center;
+        margin: 0 0 10px 0;
       }
 
       .navigation-list {
         overflow: hidden;
+        padding-top: 15px;
+        margin-right: 0;
+        height: 20px;
       }
+
+      .nav-title:hover +.navigation-list {
+          height: 250px;
+      }
+
+      .frame-wrapper h1 {
+          margin-top: 0;
+          margin-bottom: 0;
+      }
+
+      .LOG-NAME {
+        float: none; 
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .vk {
+        float: none;
+        padding: 0;
+    }
+    
+      .LOG-VK {
+        float: none; 
+        margin: 0 auto;
+        padding-right: 10px;
+        text-align: center;
+        display: inline;
+    }
+    
+    .LOG-NAME h3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .LOG-NAME p {
+        text-align: center;
+    }
+
+   .vk-vk {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .FIO {
+        padding-bottom: 0px;
+    }
+
+    .veb-sait {
+       padding-bottom: 20px;
+    }
 
 }
 
@@ -723,4 +804,95 @@ footer {
     .man {
         float: none; 
         padding-left: 50px;
+    }
+
+    .FIO {
+        padding-bottom: 0px;
+    }
+
+    .veb-sait {
+       padding-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 362px) {
+
+    .man {
+        float: none;
+        padding-left: 5px;
+    }
+    
+    .frame-wrapper h1 {
+        font-size: 25px;
+    }
+
+    .rectangle-title {
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+        display: inline-block;
+    }   
+    
+    .proekt {
+        padding: 0 5px;
+    }
+
+    .third {
+        height: 150px;
+    }
+
+    .video {
+        margin: 0 auto;
+    }
+    
+    .video-wrapper p {
+        margin: 0 auto;
+    }
+
+    .video-wrapper h2 {
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .LOG-NAME {
+        float: none; 
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .vk {
+        float: none;
+        padding: 0;
+    }
+        
+    .LOG-VK {
+        float: none; 
+        margin: 0 auto;
+        padding-right: 10px;
+        text-align: center;
+        display: inline;
+    }
+    
+    .LOG-NAME h3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .LOG-NAME p {
+        text-align: center;
+    }
+
+   .vk-vk {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .FIO {
+        padding-bottom: 0px;
+    }
+
+    .veb-sait {
+       padding-bottom: 20px;
+    }
+
 }
